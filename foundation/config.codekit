@@ -3819,9 +3819,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/app.scss",
-		"outputAbbreviatedPath": "\/css\/app.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputAbbreviatedPath": "\/Users\/colorale\/Sites\/dev\/wp-content\/themes\/yanse-child\/css\/app.css",
+		"outputPathIsOutsideProject": 1,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
@@ -3835,8 +3835,8 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "foundation",
-	"displayValueWasSetByUser": 0,
+	"displayValue": "Yanse Child - foundation",
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_yellow"
 	},
 "projectSettings": {
