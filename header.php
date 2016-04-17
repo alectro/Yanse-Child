@@ -43,7 +43,7 @@
 
 </head>
 
-<body <?php body_class('antialiased'); ?> style='background:<?php $workscolor = rwmb_meta("mb_color"); if (isset($workscolor[0])) { echo __($workscolor, 'yanse'); } ?>'>
+<body <?php body_class('antialiased'); ?>>
 
 <header class="contain-to-grid clearfix">
 
