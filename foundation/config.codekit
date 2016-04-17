@@ -3822,7 +3822,7 @@
 		"outputAbbreviatedPath": "\/Users\/colorale\/Sites\/dev\/wp-content\/themes\/yanse-child\/css\/app.css",
 		"outputPathIsOutsideProject": 1,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
