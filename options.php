@@ -36,7 +36,7 @@ function optionsframework_options() {
 	// Dashboard Widget Yes or No selector
 	$widget_yes_no = array("1" => "Yes","0" => "No");
 	// Dashboard Widget Yes or No selector
-	$widget_feed_url = array( home_url('/feed')  => get_bloginfo('site_name'), "http://www.colorale.com/feed/" => "Colorale");
+	$widget_feed_url = array( "http://www.colorale.com/feed/" => "Colorale", home_url('/feed')  => get_bloginfo('site_name'));
 
 	// If using image radio buttons, define a directory path
 	$imagepath =  get_stylesheet_directory_uri() . '/images/';
@@ -54,13 +54,13 @@ function optionsframework_options() {
 
 	$options[] = array( "name" => "Widget Title Feed",
 						"id" => "widget_title",
-						"std" => "News from " . get_bloginfo('site_name'),
+						"std" => "News from colorale",
 						"class" => "normal", //mini, tiny, small, normal
 						"type" => "text");
 
 	$options[] = array( "name" => "Widget URL Feed",
 						"id" => "widget_feed",
-						"std" => home_url('/feed'),
+						"std" => "http://www.colorale.com/feed",
 						"options" => $widget_feed_url,
 						"type" => "select");
 
