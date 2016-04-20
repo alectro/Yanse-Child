@@ -15,6 +15,17 @@ $optionsfile = locate_template( 'options.php' );
 load_template( $optionsfile );
 
 
+/**
+  * Set up My Child Theme's textdomain.
+  *
+  * Declare textdomain for this child theme.
+  * Translations can be added to the /languages/ directory.
+  */
+function yanse_language() {
+    load_child_theme_textdomain( 'yanse', get_stylesheet_directory() . '/languages' );
+}
+add_action( 'after_setup_theme', 'yanse_language' );
+
 // Post Thumbnails
 add_theme_support('post-thumbnails');
 
