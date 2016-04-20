@@ -71,6 +71,7 @@ $font-path: "../fonts/social-yanse";
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 .icon-social-500px:before {
   content: "\e000";
 }
@@ -133,6 +134,24 @@ $font-path: "../fonts/social-yanse";
 }
 .icon-social-mailchimp:before {
   content: "\e014";
+}
+.icon-social-designernews:before {
+  content: "\e015";
+}
+.icon-social-lastfm:before {
+  content: "\e016";
+}
+.icon-social-medium:before {
+  content: "\e017";
+}
+.icon-social-soundcloud:before {
+  content: "\e018";
+}
+.icon-social-spotify:before {
+  content: "\e019";
+}
+.icon-social-wordpress:before {
+  content: "\e01a";
 }
 
 // 4. Wordpress classes

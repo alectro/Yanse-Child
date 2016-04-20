@@ -101,6 +101,24 @@
 	        </li>
 	      <?php } ?>
 
+				<?php if ( of_get_option('wordpress_url') ) { ?>
+					<!-- WordPress -->
+	        <li>
+						<a class="button" href="<?php echo of_get_option('wordpress_url', 'no entry'); ?>" title="<?php echo sprintf( __('Connect with %s on WordPress', 'yanse'), get_bloginfo('name') ); ?>" target="_blank">
+							<div class="icon-social-wordpress"></div>
+						</a>
+	        </li>
+	      <?php } ?>
+
+				<?php if ( of_get_option('medium_url') ) { ?>
+					<!-- Medium -->
+	        <li>
+						<a class="button" href="<?php echo of_get_option('medium_url', 'no entry'); ?>" title="<?php echo sprintf( __('Connect with %s on Medium', 'yanse'), get_bloginfo('name') ); ?>" target="_blank">
+							<div class="icon-social-medium"></div>
+						</a>
+	        </li>
+	      <?php } ?>
+
 				<?php if ( of_get_option('behance_url') ) { ?>
 					<!-- Behance -->
 	        <li>
@@ -119,6 +137,15 @@
 						</a>
 	        </li>
 		    <?php } ?>
+
+				<?php if ( of_get_option('designernews_url') ) { ?>
+					<!-- Designer News -->
+	        <li>
+						<a class="button" href="<?php echo of_get_option('designernews_url', 'no entry'); ?>" title="<?php echo sprintf( __('%s profile on Designer News', 'yanse'), get_bloginfo('name') ); ?>" target="_blank">
+							<div class="icon-social-designernews"></div>
+						</a>
+	        </li>
+	      <?php } ?>
 
 				<?php if ( of_get_option('pinterest_url') ) { ?>
 					<!-- Pinterest -->
@@ -175,9 +202,9 @@
 	      <?php } ?>
 
 				<?php if ( of_get_option('stackoverflow_url') ) { ?>
-					<!-- Bitbucket -->
+					<!-- StackOverflow -->
 	        <li>
-						<a class="button" href="<?php echo of_get_option('stackoverflow_url', 'no entry'); ?>" title="<?php echo sprintf( __('Follow %s on Stackoverflow', 'yanse'), get_bloginfo('name') ); ?>" target="_blank">
+						<a class="button" href="<?php echo of_get_option('stackoverflow_url', 'no entry'); ?>" title="<?php echo sprintf( __('Follow %s on StackOverflow', 'yanse'), get_bloginfo('name') ); ?>" target="_blank">
 							<div class="icon-social-stackoverflow"></div>
 						</a>
 	        </li>
@@ -206,6 +233,33 @@
 	        <li>
 						<a class="button" href="<?php echo of_get_option('youku_url', 'no entry'); ?>" title="<?php echo sprintf( __('Follow %s on Youku', 'yanse'), get_bloginfo('name') ); ?>" target="_blank">
 							<div class="icon-social-youku"></div>
+						</a>
+	        </li>
+	      <?php } ?>
+
+				<?php if ( of_get_option('spotify_url') ) { ?>
+					<!-- Spotify -->
+	        <li>
+						<a class="button" href="<?php echo of_get_option('spotify_url', 'no entry'); ?>" title="<?php echo sprintf( __('Follow %s on Spotify', 'yanse'), get_bloginfo('name') ); ?>" target="_blank">
+							<div class="icon-social-spotify"></div>
+						</a>
+	        </li>
+	      <?php } ?>
+
+				<?php if ( of_get_option('lastfm_url') ) { ?>
+					<!-- Spotify -->
+	        <li>
+						<a class="button" href="<?php echo of_get_option('lastfm_url', 'no entry'); ?>" title="<?php echo sprintf( __('Follow %s on Last.fm', 'yanse'), get_bloginfo('name') ); ?>" target="_blank">
+							<div class="icon-social-lastfm"></div>
+						</a>
+	        </li>
+	      <?php } ?>
+
+				<?php if ( of_get_option('soundcloud_url') ) { ?>
+					<!-- SoundCloud -->
+	        <li>
+						<a class="button" href="<?php echo of_get_option('soundcloud_url', 'no entry'); ?>" title="<?php echo sprintf( __('Follow %s on SoundCloud', 'yanse'), get_bloginfo('name') ); ?>" target="_blank">
+							<div class="icon-social-soundcloud"></div>
 						</a>
 	        </li>
 	      <?php } ?>

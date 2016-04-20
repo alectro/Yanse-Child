@@ -140,6 +140,11 @@ function optionsframework_options() {
 						"class" => "small grouped",
 						"type" => "text");
 
+	$options[] = array( "name" => "Designer News",
+						"id" => "designernews_url",
+						"class" => "small grouped",
+						"type" => "text");
+
 	$options[] = array( "name" => "Instagram",
 						"id" => "instagram_url",
 						"class" => "small grouped",
@@ -162,6 +167,31 @@ function optionsframework_options() {
 
 	$options[] = array( "name" => "500px",
 						"id" => "500px_url",
+						"class" => "small grouped",
+						"type" => "text");
+
+	$options[] = array( "name" => "Spotify",
+						"id" => "spotify_url",
+						"class" => "small grouped",
+						"type" => "text");
+
+	$options[] = array( "name" => "Last.fm",
+						"id" => "lastfm_url",
+						"class" => "small grouped",
+						"type" => "text");
+
+	$options[] = array( "name" => "SoundCloud",
+						"id" => "soundcloud_url",
+						"class" => "small grouped",
+						"type" => "text");
+
+	$options[] = array( "name" => "Medium",
+						"id" => "medium_url",
+						"class" => "small grouped",
+						"type" => "text");
+
+	$options[] = array( "name" => "WordPress",
+						"id" => "wordpress_url",
 						"class" => "small grouped",
 						"type" => "text");
 
