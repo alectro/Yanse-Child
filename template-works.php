@@ -12,7 +12,7 @@ get_header(); ?>
 		<div class="row">
 			<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php get_template_part( 'content', 'works' ); ?>
+				<?php get_template_part( 'template/content', 'works' ); ?>
 
 			<?php endwhile; // end of the loop. ?>
 
