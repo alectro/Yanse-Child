@@ -14,7 +14,7 @@ get_header(); ?>
 					<div class="row">
 						<?php while ( have_posts() ) : the_post(); ?>
 
-							<?php get_template_part( 'template/content', 'careers' ); ?>
+							<?php get_template_part( 'template/cpt/page', 'careers' ); ?>
 
 						<?php endwhile; // end of the loop. ?>
 
