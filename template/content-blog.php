@@ -6,7 +6,6 @@
  * @since Yanse 0.1
  */
 ?>
-
 	<div class="large-8 columns">
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			<header class="entry-header">
