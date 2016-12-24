@@ -1,5 +1,4 @@
-<?php
-
+<?php 
 /*
  * Loads the Options Panel
  *
