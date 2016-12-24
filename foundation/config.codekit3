@@ -61,8 +61,8 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/Users\/colorale\/Sites\/dev\/wp-content\/themes\/yanse-child\/js\/app-min.js",
-		"oF": 6,
+		"oAP": "\/js\/min\/app-min.js",
+		"oF": 3,
 		"sC": 1,
 		"tS": 0
 		},
@@ -730,7 +730,7 @@
 		},
 	"\/scss\/app.scss": {
 		"aP": 0,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
