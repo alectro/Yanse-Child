@@ -5074,13 +5074,6 @@
 		"oAP": "\/bower_components\/what-input\/.gitignore",
 		"oF": 0
 		},
-	"\/bower_components\/what-input\/.nvmrc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bower_components\/what-input\/.nvmrc",
-		"oF": 0
-		},
 	"\/bower_components\/what-input\/dist\/lte-IE8.js": {
 		"ft": 64,
 		"ma": 0,
