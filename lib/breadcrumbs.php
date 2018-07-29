@@ -9,14 +9,15 @@
  function yanse_breadcrumbs() {
 
  	/* === OPTIONS === */
- 	$text['home']     = 'Home'; // text for the 'Home' link
- 	$text['category'] = 'Archive by Category "%s"'; // text for a category page
- 	$text['search']   = 'Search Results for "%s" Query'; // text for a search results page
- 	$text['tag']      = 'Posts Tagged "%s"'; // text for a tag page
- 	$text['author']   = 'Articles Posted by %s'; // text for an author page
- 	$text['404']      = 'Error 404'; // text for the 404 page
- 	$text['page']     = 'Page %s'; // text 'Page N'
- 	$text['cpage']    = 'Comment Page %s'; // text 'Comment Page N'
+  $text['home']     = __('Home', 'yanse'); // text for the 'Home' link
+ 	$text['category'] = __('Archive by Category "%s"', 'yanse'); // text for a category page
+ 	$text['search']   = __('Search Results for "%s" Query', 'yanse'); // text for a search results page
+ 	$text['tag']      = __('Posts Tagged "%s"', 'yanse'); // text for a tag page
+ 	$text['author']   = __('Articles Posted by %s', 'yanse'); // text for an author page
+ 	$text['404']      = __('Error 404', 'yanse'); // text for the 404 page
+ 	$text['page']     = __('Page %s', 'yanse'); // text 'Page N'
+ 	$text['cpage']    = __('Comment Page %s', 'yanse'); // text 'Comment Page N'
+
 
  	$wrap_before    = '<nav aria-label="You are here:" role="navigation"><ul class="breadcrumbs">'; // the opening wrapper tag
  	$wrap_after     = '</ul></nav><!-- .breadcrumbs -->'; // the closing wrapper tag
