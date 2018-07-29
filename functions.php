@@ -16,4 +16,6 @@ require_once('lib/welcome.php');
 
 require_once('lib/wysiwyg.php');
 
+//require_once('lib/custom-dashboard.php');
+
 ?>
