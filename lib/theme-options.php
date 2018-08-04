@@ -1,4 +1,4 @@
-<?php 
+<?php
 /*
  * Loads the Options Panel
  *
@@ -63,8 +63,6 @@ add_theme_support( 'custom-header', $defaults = array(
  *
  */
 function yanse_admin_head() {
-	// Dasboard favicon
-	echo '<link rel="Shortcut Icon" type="image/x-icon" href="'.of_get_option('dashboard_favicon').'" />';
 
 	// Admin Styles
 	echo '<style type="text/css">
@@ -103,8 +101,6 @@ add_action('admin_head', 'yanse_admin_head');
 function my_custom_login_logo() {
 
 $login_back = of_get_option('login_back');
-	// Login favicon
-	echo '<link rel="Shortcut Icon" type="image/x-icon" href="'.of_get_option('dashboard_favicon').'" />';
 
 	// Login Styles
     echo '<style type="text/css">
@@ -162,16 +158,6 @@ input {
 }
 add_action('login_head', 'my_custom_login_logo');
 
-/**
- *	Favicon
- *	@since	yanse 0.1
- *
- */
-function yanse_favicon() {
-	// Website favicon
-	echo '<link rel="Shortcut Icon" type="image/x-icon" href="'.of_get_option('favicon').'" />';
-}
-add_action('wp_head', 'yanse_favicon');
 
 /**
  *	Admin Footer Credits

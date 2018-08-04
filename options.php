@@ -285,18 +285,6 @@ function optionsframework_options() {
 						"std" => $imagepath . 'branding/dashboard-logo.png',
 						"type" => "upload");
 
-	$options[] = array( "name" => "Favicon for your Website",
-						"desc" => "Replace the default icon to your web browser URL navigation bar for your Website. Please upload .ico or .gif files (16 x 16 pixels).",
-						"id" => "favicon",
-						"std" => $imagepath . 'favicon.ico',
-						"type" => "upload");
-
-	$options[] = array( "name" => "Favicon for your Dashboard",
-						"desc" => "Replace the default icon to your web browser URL navigation bar for your Dashboard. Please upload .ico or .gif files (16 x 16 pixels).",
-						"id" => "dashboard_favicon",
-						"std" => $imagepath . 'branding/favicon.ico',
-						"type" => "upload");
-
 	/*	Login */
 	$options[] = array( "name" => "Login Screen style",
 						"desc" => "Change the login screen style.",
