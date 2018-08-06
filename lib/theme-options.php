@@ -63,6 +63,8 @@ add_theme_support( 'custom-header', $defaults = array(
  *
  */
 function yanse_admin_head() {
+  // Dasboard favicon
+	echo '<link rel="icon" type="image/png" sizes="32x32" href="'.get_stylesheet_directory_uri().'/images/favicon/favicon-dashboard-32x32.png" />';
 
 	// Admin Styles
 	echo '<style type="text/css">
